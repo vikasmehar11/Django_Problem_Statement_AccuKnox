@@ -14,7 +14,6 @@ Answer:Django signals are executed synchronously."""
 def handle_signal(sender, instance):
     print("Calling signal handler")
 
-# Use case
 instance = testModel.objects.create(name="Sample")
 print("Instance saved")
 
