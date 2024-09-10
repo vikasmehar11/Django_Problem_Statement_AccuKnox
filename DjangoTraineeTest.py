@@ -68,6 +68,6 @@ class Rectangle:
 
 # Creating a rectangle
 
-rect = Rectangle(10, 5)
+rec = Rectangle(10, 5)
 
 
