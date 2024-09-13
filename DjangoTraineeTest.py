@@ -3,6 +3,9 @@
 """Question 1:Are Django signals executed synchronously or asynchronously?
 
 Answer:Django signals are executed synchronously."""
+""""Synchronously because the signal handlers are called immediately after the signal is sent,
+    so that the task depending on signal is completed before moving to the next step.
+"""
 
 # Code:-
 
