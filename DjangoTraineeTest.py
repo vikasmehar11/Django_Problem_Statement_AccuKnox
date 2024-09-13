@@ -61,6 +61,7 @@ with transaction.atomic():
     testModel.objects.create(name="Test")
 
 # Topic:Custom Classes in Python
+"""Creating a rectangle"""
 
 # code:-
 
