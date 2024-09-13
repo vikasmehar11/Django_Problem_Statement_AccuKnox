@@ -23,6 +23,9 @@ print("Instance saved")
 """Question 2:Do Django signals run in the same thread as the caller?
 
 Answer:Yes. """
+"""Signals execute synchronously and the signal handler is trigrred within the same execution flow,
+   so that the caller's state and context are preserved.
+"""
 
 # Code:-
 
