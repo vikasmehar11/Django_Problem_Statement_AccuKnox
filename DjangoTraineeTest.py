@@ -46,6 +46,7 @@ instance = testModel.objects.create(name="Sample")
 """Question 3:Do Django signals run in the same database transaction as the caller?
 
 Answer:Yes. """
+"""To ensure consistency between caller and handler's database operations."""
 
 # Code:-
 
